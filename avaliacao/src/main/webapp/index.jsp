@@ -4,15 +4,15 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Campeonato Paulista 2019</title>
-	<link href="estilo.css" rel="stylesheet" type="text/css">
+	<title>Campeonato Paulista de Futebol de 2021</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<form action="/campeonato-paulista/grupos" method="get">
 		<div align="center">
-			<h3>Clique aqui para gerar os grupos</h3>
-				<button type="submit" name="action" value="gerar" class="btnGerarGrupos">Gerar grupos</button>
-				<button type="submit" name="action" value="mostrar" class="btnMostrarGrupos">Mostrar grupos</button>
+			<h3>Clique aqui para dividir os grupos</h3>
+				<button type="submit" name="action" value="gerar" class="btnGerarGrupos">Dividir grupos</button>
+				<button type="submit" name="action" value="mostrar" class="btnMostrarGrupos">Rodadas dos grupos</button>
 		</div>
 	</form>
 
@@ -30,11 +30,13 @@
 	<br>
 
 	<div align="center" class="">
-	<h3>Pesquise jogos por data</h3>
+	<h3>Pesquise os jogos por data</h3>
 		<form action="/campeonato-paulista/pesquisaJogos" method="post">
-			<input type="date" name="data" placeholder="Insira uma data vï¿½lida"/>
+			<input type="date" name="data" placeholder="Insira uma data válida"/>
 			<button type="submit" class="btnPesquisarJogos">Pesquisar</button>
 		</form>
 	</div>
+	
+	<center><h4>Giullia Vital Antunes</h4></center>
 </body>
 </html>

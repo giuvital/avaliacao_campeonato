@@ -7,7 +7,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pesquisar jogos por data</title>
-	<link href="estilo.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div align="center">
@@ -35,7 +35,7 @@
 		</table>
 		<div>
 			<br>
-			<a href="/campeonato-paulista"><button class="btnHome">Pagina principal</button></a>
+			<a href="/campeonato-paulista"><button class="btnHome">Página principal</button></a>
 		</div>
 	</div>
 </body>

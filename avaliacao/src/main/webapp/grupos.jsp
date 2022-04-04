@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1"%>
-<%@ page import="java.util.List, model.*"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<%@ tagl<%@ page import="java.util.List, model.*"%>ib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 	<title>Grupos</title>
-	<link href="estilo.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div align="center">
@@ -101,7 +101,7 @@
 
 		<div>
 			<br>
-			<a href="/campeonato-paulista"><button class="btnHome">Pagina principal</button></a>
+			<a href="/campeonato-paulista"><button class="btnHome">Página principal</button></a>
 		</div>
 	</div>
 </body>
